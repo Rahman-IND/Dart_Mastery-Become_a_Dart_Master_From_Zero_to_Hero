@@ -1,4 +1,4 @@
-/*Topic : Conditional Statements If, If-Else and If-Else If Statements */
+/*Topic : Conditional Statements - If, If-Else and Else-If ladder Statements */
 import 'dart:io';
 
 void main() {
@@ -19,7 +19,7 @@ void main() {
   } else {
     print("The number is negative. \n");
   }
-  //  if Else if Statement
+  //  Else if ladder Statement
   print("Enter the Signal color : ");
   var signal = stdin.readLineSync();
 
