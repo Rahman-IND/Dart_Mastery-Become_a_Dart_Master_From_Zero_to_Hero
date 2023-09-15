@@ -1,6 +1,7 @@
-/*Topic : While Loop Statement */
+/*Topic : While Loop Statement to print a multiplication table */
 
 void main() {
+  //  while Loop
   var table = 8;
   var num = 1;
   var to = 10;
