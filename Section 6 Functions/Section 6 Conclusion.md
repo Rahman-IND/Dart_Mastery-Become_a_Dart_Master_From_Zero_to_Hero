@@ -1,0 +1,11 @@
+## Section 6 : Conclusion
+- what is function
+- Defining a function
+- Calling a function
+- Returning a function
+- Parameterized function
+- Required Parameters
+- Optional parameters
+    - Optional positional parameter
+    - Optional named parameter
+    - Optional default parameter
