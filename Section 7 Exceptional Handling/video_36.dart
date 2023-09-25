@@ -7,15 +7,20 @@ void main() {
     var varnum1;
     int num1;
     varnum1 = stdin.readLineSync();
+    print("Enter the value of varnum1 : ");
+    varnum1 = stdin
+        .readLineSync(); //  you can enter any number to test it (-ve) or (+ve)
     num1 = int.parse(varnum1);
 
     //  calling method "checkNumber"
     checkNumber(num1);
   } catch (e) {
-    var Msg = checkNegativeException();                 //  created instance of Custom Exception class
-    
+    //  created instance of Custom Exception class
+    var Msg = checkNegativeException();
     //  calling method "errorMsg"
     print(Msg.errorMsg());
+  } finally {
+    print("Code executed successfully ");
   }
 }
 
