@@ -6,10 +6,8 @@ void main() {
   try {
     var varnum1;
     int num1;
-    varnum1 = stdin.readLineSync();
     print("Enter the value of varnum1 : ");
-    varnum1 = stdin
-        .readLineSync(); //  you can enter any number to test it (-ve) or (+ve)
+    varnum1 = stdin.readLineSync(); //  you can enter any number to test it (-ve) or (+ve)
     num1 = int.parse(varnum1);
 
     //  calling method "checkNumber"
@@ -20,7 +18,7 @@ void main() {
     //  calling method "errorMsg"
     print(Msg.errorMsg());
   } finally {
-    print("Code executed successfully ");
+    print("Finally clause : Code executed successfully ");
   }
 }
 
