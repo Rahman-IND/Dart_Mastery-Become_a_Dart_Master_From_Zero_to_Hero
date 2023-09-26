@@ -34,7 +34,7 @@ class Student {
   //  defining methods
   void study() {
     print(
-        "Status Studing : Student id is ${this.id} and Student name is ${this.name}");
+        "Status Studying : Student id is ${this.id} and Student name is ${this.name}");
   }
 
   void sleep() {
