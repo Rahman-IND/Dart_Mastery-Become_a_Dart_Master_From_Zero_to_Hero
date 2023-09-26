@@ -7,26 +7,42 @@ void main() {
   std1.study();
   std1.sleep();
   std1.eat();
+
+  print("------------------------------------------------------------");
+  //  creating instance of the class
+  var std2 = new Student.CustomConstructor(202051002, "Anurag");
+  //  calling methods
+  std2.study();
+  std2.sleep();
+  std2.eat();
 }
 
 class Student {
   //  variable declaration
   var id, name;
+
   //  creating parameterized constructor
   Student(var id, var name) {
     this.id = id;
     this.name = name;
   }
+
+  //  creating a custom constructor
+  Student.CustomConstructor(var id, var name) {
+    this.id = id;
+    this.name = name;
+  }
+
   //  defining methods
   void study() {
-    print("Status Studying: Student id is ${this.id} and name is ${this.name}");
+    print("Status Studying : Student id is ${this.id} and name is ${this.name}");
   }
 
   void sleep() {
-    print("Status Sleeping: Student id is ${this.id} and name is ${this.name}");
+    print("Status Sleeping : Student id is ${this.id} and name is ${this.name}");
   }
 
   void eat() {
-    print("Status Eating: Student id is ${this.id} and name is ${this.name}");
+    print("Status Eating : Student id is ${this.id} and name is ${this.name}");
   }
 }
