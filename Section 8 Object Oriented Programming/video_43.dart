@@ -1,9 +1,9 @@
 /*Topic : Method overriding */
 
 void main() {
-  //  creating object of "Man()" class
+  //  creating object of "woman()" class
   var woman1 = new woman();
-  //  calling run() method from class Man
+  //  calling run() method from class woman
   woman1.run();
 }
 
@@ -28,6 +28,8 @@ class Man extends Human {
 
 //  sub class
 class woman extends Man {
+  //  defining same method from Man() class
+  //  method overriding
   void run() {
     print("Woman is running.");
     super.run();        //  calling method from parent class ("Man()") with "super" keyword
